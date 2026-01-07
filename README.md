@@ -1,5 +1,3 @@
-# 📸 Image Classifier
-
 Un application web interactive qui utilise l'intelligence artificielle pour classifier et identifier les objets présents dans vos images.
 
 ## 🎯 Fonctionnalités
