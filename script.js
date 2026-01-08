@@ -23,9 +23,8 @@ function handleImageUpload(event) {
 }
 
 function classifyImg() {
-  console.log("Lancement de la classification..."); // Pour le débogage
+  console.log("Lancement de la classification...");
   
-  // CORRECTION ICI : 'imageClassifier' avec C majuscule et 'MobileNet'
   ml5.imageClassifier('MobileNet')
     .then(classifier => {
       modelLoaded();
